@@ -1,7 +1,7 @@
 import { Divider } from "antd";
-import FoodItem from "../../atoms/FoodItem";
-import HeadingList from "../../molecules/HeadingList";
-import RestautantCard from "../../organisms/RestaurantCard";
+import FoodItem from "../../atoms/FoodItem/FoodItem";
+import HeadingList from "../../molecules/HeadingList/HeadingList";
+import RestautantCard from "../../organisms/RestaurantCard/RestaurantCard";
 
 export default function HomePage() {
   const foodItems = [

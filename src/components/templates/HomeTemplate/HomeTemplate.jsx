@@ -6,7 +6,7 @@ import {
   ShoppingCartOutlined,
   UserOutlined,
 } from "@ant-design/icons";
-import Navbar from "../../organisms/Navbar";
+import Navbar from "../../organisms/Navbar/Navbar";
 import { useSelector } from "react-redux";
 
 export default function HomeTemplate() {

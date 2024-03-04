@@ -1,8 +1,8 @@
 import propTypes from "prop-types";
-import RatingAndDelivery from "../../atoms/RatingAndDelivery";
-import RestaurantAddress from "../../atoms/RestaurantAddress";
-import RestautantImage from "../../atoms/RestaurantImage";
-import RestautantName from "../../atoms/RestaurantName";
+import RatingAndDelivery from "../../atoms/RatingAndDelivery/RatingAndDelivery";
+import RestaurantAddress from "../../atoms/RestaurantAddress/RestaurantAddress";
+import RestautantImage from "../../atoms/RestaurantImage/RestaurantImage";
+import RestautantName from "../../atoms/RestaurantName/RestaurantName";
 
 export default function RestautantCard({
   url,

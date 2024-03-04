@@ -1,4 +1,4 @@
-import IconButton from "../../atoms/IconButton";
+import IconButton from "../../atoms/IconButton/IconButton";
 import propTypes from "prop-types";
 import "./index.css";
 import { useNavigate } from "react-router-dom";

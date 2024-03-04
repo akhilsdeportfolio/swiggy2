@@ -1,12 +1,12 @@
 import React, { Profiler, Suspense } from "react";
 import ReactDOM from "react-dom/client";
-import FallbackLoader from "./components/molecules/FallbackLoader/index.jsx";
+import FallbackLoader from "./components/molecules/FallbackLoader/FallbackLoader.jsx";
 import { Provider } from "react-redux";
 import { store } from "./store.js";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { LazyHomeTemplate } from "./utils/lazyComponents.js";
-import HomePage from "./components/pages/HomePage/index.jsx";
+import HomePage from "./components/pages/HomePage/HomePage.jsx";
 
 const router = createBrowserRouter([
   {

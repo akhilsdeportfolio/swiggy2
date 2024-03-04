@@ -1,7 +1,7 @@
 import propTypes from "prop-types";
-import Logo from "../../atoms/Logo";
-import TkCard from "../../molecules/TkCard";
-import MenuList from "../../molecules/MenuList";
+import Logo from "../../atoms/Logo/Logo";
+import TkCard from "../../molecules/TkCard/TkCard";
+import MenuList from "../../molecules/MenuList/MenuList";
 import "./index.css";
 
 export default function Navbar({ items }) {
