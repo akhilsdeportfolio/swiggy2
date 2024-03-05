@@ -1,6 +1,6 @@
 import propTypes from "prop-types";
 
-export default function RestautantImage({ url, showOffer, offerText }) {
+export function RestautantImage({ url, showOffer, offerText }) {
   return (
     <div className="relative">
       <div className="relative rounded-xl overflow-hidden w-[273px] h-[182px]">

@@ -6,11 +6,9 @@ import {
   ShoppingCartOutlined,
   UserOutlined,
 } from "@ant-design/icons";
-import Navbar from "../../organisms/Navbar/Navbar";
-import { useSelector } from "react-redux";
+import Navbar from "../../organisms/Navbar";
 
-export default function HomeTemplate() {
-  const count = useSelector((store) => store.counter.count);
+export function HomeTemplate() {
   const items = [
     {
       icon: <SearchOutlined />,
@@ -43,7 +41,6 @@ export default function HomeTemplate() {
       key: "shopping",
       showBadge: true,
       path: "cart",
-      count: count,
     },
   ];
 

@@ -1,9 +1,9 @@
-import IconButton from "../../atoms/IconButton/IconButton";
+import IconButton from "../../atoms/IconButton";
 import propTypes from "prop-types";
 import "./index.css";
 import { useNavigate } from "react-router-dom";
 
-export default function MenuList({ items }) {
+export function MenuList({ items }) {
   const navigate = useNavigate();
   function handleItemClick(item) {
     const { path } = item;

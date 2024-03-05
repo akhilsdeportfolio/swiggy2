@@ -3,7 +3,7 @@ import { FileSearchOutlined } from "@ant-design/icons";
 import "./index.css";
 import { Badge } from "antd";
 
-export default function IconButton({
+export function IconButton({
   icon = FileSearchOutlined,
   title = "Click Me",
   showTag = false,

@@ -1,7 +1,7 @@
 import propTypes from "prop-types";
 import "./index.css";
 
-export default function FoodItem({ url, alt }) {
+export function FoodItem({ url, alt }) {
   return (
     <>
       <img className="foodItem hover:cursor-pointer" src={url} alt={alt} />

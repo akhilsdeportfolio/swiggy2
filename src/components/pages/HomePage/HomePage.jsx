@@ -1,9 +1,9 @@
 import { Divider } from "antd";
-import FoodItem from "../../atoms/FoodItem/FoodItem";
-import HeadingList from "../../molecules/HeadingList/HeadingList";
-import RestautantCard from "../../organisms/RestaurantCard/RestaurantCard";
+import FoodItem from "../../atoms/FoodItem";
+import HeadingList from "../../molecules/HeadingList";
+import RestautantCard from "../../organisms/RestaurantCard";
 
-export default function HomePage() {
+export function HomePage() {
   const foodItems = [
     "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Puttu.png",
     "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029847/PC_Creative%20refresh/3D_bau/banners_new/Pongal.png",

@@ -1,7 +1,7 @@
 import { LoadingOutlined } from "@ant-design/icons";
 import { Spin } from "antd";
 
-export default function FallbackLoader() {
+export function FallbackLoader() {
   return (
     <div className="text-center flex flex-col justify-center items-center">
       <Spin indicator={<LoadingOutlined size="large" />} />

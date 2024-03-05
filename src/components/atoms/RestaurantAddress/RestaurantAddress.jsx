@@ -1,6 +1,6 @@
 import propTypes from "prop-types";
 
-export default function RestaurantAddress({ category, address }) {
+export function RestaurantAddress({ category, address }) {
   return (
     <>
       <div className="truncate ...">{category}</div>

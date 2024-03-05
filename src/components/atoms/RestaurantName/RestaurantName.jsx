@@ -1,6 +1,6 @@
 import propTypes from "prop-types";
 
-export default function RestaurantName({ name }) {
+export function RestaurantName({ name }) {
   return (
     <div className="p-1 max-w-[273px]">
       <h1 className="text-lg font-bold truncate ...">{name}</h1>

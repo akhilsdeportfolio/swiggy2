@@ -1,7 +1,7 @@
 import { Rate } from "antd";
 import propTypes from "prop-types";
 
-export default function RatingAndDelivery({ rating, deliveryTime }) {
+export function RatingAndDelivery({ rating, deliveryTime }) {
   return (
     <div className="max-w-[273px] flex flex-row !justify-start items-center">
       <Rate value={1} count={1} className="text-green-500 p-1" />
