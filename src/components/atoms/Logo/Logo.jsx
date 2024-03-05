@@ -1,6 +1,6 @@
 import propTypes from "prop-types";
-import "./styles.css";
 import { useNavigate } from "react-router-dom";
+import "./styles.css";
 
 export function Logo({
   showTitle = false,

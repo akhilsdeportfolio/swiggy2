@@ -1,7 +1,7 @@
 import propTypes from "prop-types";
 import { FileSearchOutlined } from "@ant-design/icons";
-import "./index.css";
 import { Badge } from "antd";
+import "./index.css";
 
 export function IconButton({
   icon = FileSearchOutlined,
